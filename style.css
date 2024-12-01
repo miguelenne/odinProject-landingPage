@@ -1,14 +1,25 @@
 html,body{
     margin:0px;
     padding:0px;
+}
+
+body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 a{
     text-decoration: none;
     font-size:18px;
     color: #E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: none;
 }
 
 .header, .content1, .footer{
@@ -29,38 +40,68 @@ a{
 
 .header-link{
     display: flex;
-    gap:20px;
+    gap:25px;
 }
 
 .content1{
     padding-top: 120px;
     display: flex;
-    justify-content: space-evenly;
+    padding-left: 300px;
 }
 
-.section1{
+.text-section{
     display: flex;
     flex-direction: column;
-    max-width: 450px;
     gap:10px;
     padding-bottom:120px ;
 }
 
 .main-text{
     font-size: 48px;
+    max-width: 450px;
     font-weight: 900;
+}
+
+.image-section{
+    align-self: flex-start;
+    padding: 120px;
+    margin-left: 300px;
+    background-color: gray;
+
 }
 
 .secondary-text{
     font-size:18px;
+    max-width: 530px;
     color: #E5E7EB;
 }
 
+.content1-button{
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-button{
-    border-color: #3882f6;
-    background-color: #3882f6;
-    color: #F9FAF8;
-    border-radius: 6px;
+.content2 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content3{
+    display: flex;
+}
+.content4{
+    display: flex;
+}
+.footer{
+    display: flex;
 }
