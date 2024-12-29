@@ -48,7 +48,7 @@ button{
 }
 
 .content1{
-    padding-top: 120px;
+    
     display: flex;
     padding-left: 300px;
 }
@@ -61,6 +61,7 @@ button{
 }
 
 .content1 .main-text{
+    padding-top: 120px;
     font-size: 48px;
     max-width: 450px;
     font-weight: 900;
@@ -68,9 +69,11 @@ button{
 
 .content1 .image-section{
     align-self: flex-start;
-    padding: 120px;
-    margin-left: 300px;
-    background-color: gray;
+    /* padding: 120px; */
+    padding-top: 30px;
+    padding-left: 400px;
+    padding-bottom: 30px;
+    /*background-color: gray;*/
 
 }
 
@@ -82,6 +85,7 @@ button{
 
 .content1 button{
     align-self: flex-start;
+    max-width: 530px;
     border: none;
 }
 
@@ -105,18 +109,19 @@ button{
 }
 
 
-.content2 .image-box{
-    border: #3882f6 solid 3px;
-    border-radius: 10px;
-    padding: 70px;
+
+
+.content2 .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 
 .content2 .subtext{
     padding-top: 5px;
     padding-bottom: 70px;
-    max-width: 180px;
-    text-align: center;
-    
+    max-width: 300px;
+      
 }
 
 .content3{
